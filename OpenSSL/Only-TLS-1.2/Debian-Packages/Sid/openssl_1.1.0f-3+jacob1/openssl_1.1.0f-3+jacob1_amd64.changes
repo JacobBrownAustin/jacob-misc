@@ -1,0 +1,77 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Format: 1.8
+Date: Wed, 08 Aug 2018 12:51:02 +0200
+Source: openssl
+Binary: openssl libssl1.1 libcrypto1.1-udeb libssl1.1-udeb libssl-dev libssl-doc
+Architecture: source amd64 all
+Version: 1.1.0f-3+jacob1
+Distribution: stretch-security
+Urgency: high
+Maintainer: Debian OpenSSL Team <pkg-openssl-devel@lists.alioth.debian.org>
+Changed-By: Jacob Brown <jacob@gnu.org>
+Description:
+ libcrypto1.1-udeb - Secure Sockets Layer toolkit - libcrypto udeb (udeb)
+ libssl-dev - Secure Sockets Layer toolkit - development files
+ libssl-doc - Secure Sockets Layer toolkit - development documentation
+ libssl1.1  - Secure Sockets Layer toolkit - shared libraries
+ libssl1.1-udeb - ssl shared library - udeb (udeb)
+ openssl    - Secure Sockets Layer toolkit - cryptographic utility
+Changes:
+ openssl (1.1.0f-3+jacob1) stretch-security; urgency=high
+ .
+   * Fixing disabling TLS 1.1 and 1.0 and maybe SSL
+Checksums-Sha1:
+ 8897252303dacbf6c88208699d9993397b9b3c51 2364 openssl_1.1.0f-3+jacob1.dsc
+ 15b129da44fd33fbd6411639a720c1d0feb44d0b 59760 openssl_1.1.0f-3+jacob1.debian.tar.xz
+ a9893ff4ff7961316ebb3e3cf2044085a2f4b8a5 957748 libcrypto1.1-udeb_1.1.0f-3+jacob1_amd64.udeb
+ 1d73e59d9e511d06d1b1b08f97a278883cb6176e 1575390 libssl-dev_1.1.0f-3+jacob1_amd64.deb
+ 9392cfcdf73c815516e0a95b9fedc3a9ca4aef2b 1453688 libssl-doc_1.1.0f-3+jacob1_all.deb
+ 88d008971c11e0b08963cbcee5b9c75e08adfaef 2851878 libssl1.1-dbgsym_1.1.0f-3+jacob1_amd64.deb
+ c9646c3aa747ad30f6ca1e2d6227a15eb0f45479 144576 libssl1.1-udeb_1.1.0f-3+jacob1_amd64.udeb
+ 665db7cdc4d6195ce77a1491aab1412dc0b60ef1 1343612 libssl1.1_1.1.0f-3+jacob1_amd64.deb
+ 2da2f992f5f07e7fa7734f7d270226aa217eb7bc 499048 openssl-dbgsym_1.1.0f-3+jacob1_amd64.deb
+ aa37c5040f8f79ba21bffde761ae7dd0ab4314df 8479 openssl_1.1.0f-3+jacob1_amd64.buildinfo
+ b21f815b6d26525d9007a8c5dee98f80c0fa41cd 724634 openssl_1.1.0f-3+jacob1_amd64.deb
+Checksums-Sha256:
+ 22ea72113ae840a0a920a96fc145157348f3cc49ed7087de28b5cfdf958d12c2 2364 openssl_1.1.0f-3+jacob1.dsc
+ 058da629b6d1105524bbfe14f1fc90a1d974ac7f3d81e0f01e27c6e2bcf69952 59760 openssl_1.1.0f-3+jacob1.debian.tar.xz
+ 39669a49c9b7fa9aac166ab8ed6a715a29b73815ce343bb6ec6ea275a61431a6 957748 libcrypto1.1-udeb_1.1.0f-3+jacob1_amd64.udeb
+ 808368550df30cf56d55d508f2448dadac2ce286c1bc38d160ec87fda905fe3e 1575390 libssl-dev_1.1.0f-3+jacob1_amd64.deb
+ 939501b611f6c75b48a17ca936bf3468c2550fffa2adcf1de50a26d47363bbb2 1453688 libssl-doc_1.1.0f-3+jacob1_all.deb
+ 6952cbddf64714428169242192fc6f6833dcc7ff4045677ffbb84cf471746ec4 2851878 libssl1.1-dbgsym_1.1.0f-3+jacob1_amd64.deb
+ 144fa799b02347412402ac1730e310aa878cbc287ac754f86f7c5c9cdf9cd1a6 144576 libssl1.1-udeb_1.1.0f-3+jacob1_amd64.udeb
+ 5c53fb29e4f225b81cb2b87bab998ff8cf2c1319391f2f13e7551b4afb3038bd 1343612 libssl1.1_1.1.0f-3+jacob1_amd64.deb
+ 2545229ae444007d00f6427710ee52e2a9646d34f4b5bf9b6e98247cee0afae0 499048 openssl-dbgsym_1.1.0f-3+jacob1_amd64.deb
+ dd432f0af3482d095445db913f7b1db857af5ca793084a2e4873034eb6c91815 8479 openssl_1.1.0f-3+jacob1_amd64.buildinfo
+ f8e315f27c6542bcae3fd93a6d9a5609e39eac4fdd7f820a269a706b455ad5c5 724634 openssl_1.1.0f-3+jacob1_amd64.deb
+Files:
+ 223fbef8ed25ce2740a7697100cabb00 2364 utils optional openssl_1.1.0f-3+jacob1.dsc
+ c26ecb1121158cefb5545dcd17a97c65 59760 utils optional openssl_1.1.0f-3+jacob1.debian.tar.xz
+ ea763b0bf9c72cd2c3cc63db35fdf9ac 957748 debian-installer optional libcrypto1.1-udeb_1.1.0f-3+jacob1_amd64.udeb
+ 6b775de78d1f7325ce49d98fa8ae5892 1575390 libdevel optional libssl-dev_1.1.0f-3+jacob1_amd64.deb
+ 6e78168317a7c704b5c2d7ede121d385 1453688 doc optional libssl-doc_1.1.0f-3+jacob1_all.deb
+ 5b8f4afbcb83947f674a952e197aa50a 2851878 debug extra libssl1.1-dbgsym_1.1.0f-3+jacob1_amd64.deb
+ 04537c656646d24cca610d7182649b46 144576 debian-installer optional libssl1.1-udeb_1.1.0f-3+jacob1_amd64.udeb
+ 34798f70bee97765c6efed900dd32aa6 1343612 libs important libssl1.1_1.1.0f-3+jacob1_amd64.deb
+ 1a8332eecaa339355389095a3c6d1e36 499048 debug extra openssl-dbgsym_1.1.0f-3+jacob1_amd64.deb
+ 1c71dec74889ba8a41726252352d77f5 8479 utils optional openssl_1.1.0f-3+jacob1_amd64.buildinfo
+ 9571f5267747e59f98f88ce5095fc8d6 724634 utils optional openssl_1.1.0f-3+jacob1_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCAAdFiEEzW53hyB08Y/nbOzkComqYqx0xjQFAlt08JsACgkQComqYqx0
+xjRIgRAAt9iGXA3DQyfgDgq/FVHhYUXI0VbgE+LWSdyXqqyPM0x8odu8auzqE/y6
+dUkbM/SKp8JOhlGEoD8ba4dKzxgFsOdY5cCeABmgmejk3w6aV5W0b30qG7PjNSO8
+ZCfOwsYptF+OgUEP2IJ4fArV7kW7E1m1wpLXsQhem259Iajnn1DBcGAl4sdZBGXN
+KK0PBEyZLrSGCzY1Cv2vWUeb6DCqCZnOi6dX0gwDQ5A/1jonl8XMg0iaskuA1AHM
+SKJmOz6iy8Vnl0kqlYO0nodgRiNRVziBY3mzCcixaF7jY6rhkpSirldk6MueNirq
+cerVLpiyEErGvE72zY183eh2r8IHCHm5uArGpMIF4CX6NKM5IJxpNMk3EA78Hpbg
+ikAL9ak+9OGb0nWIMDQxzZhMjuh35weqxaMDaDQQA4apP1usYTFP6pEOExyytf88
+jkksuGowjPVg37ei3GYUFEnVGgsLVA6ADJEB5oJzyxJPKwcGaAQvJ6Cdu4J3sBx2
+dG4rP4gRZyIMXlrIltPfJUD4AKflMLO45fzTT25NeYiqEro2u4t3zHqhGfDjnW6X
+TAc3r0wLcsNWkD2qMA6AUmDVh7muWsvud3wxHrKaSWC/Z0vKdXIHsGASb5SENoWn
+YtC4xR4RUHOwLEPC/huecWHe8FKrubEZUU5pxU97CF/gtX02pvc=
+=Szs/
+-----END PGP SIGNATURE-----

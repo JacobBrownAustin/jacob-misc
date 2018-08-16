@@ -1,0 +1,227 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Format: 1.0
+Source: openssl
+Binary: openssl libssl1.1 libcrypto1.1-udeb libssl1.1-udeb libssl-dev libssl-doc
+Architecture: all amd64 source
+Version: 1.1.0f-3+jacob1
+Checksums-Md5:
+ 223fbef8ed25ce2740a7697100cabb00 2364 openssl_1.1.0f-3+jacob1.dsc
+ ea763b0bf9c72cd2c3cc63db35fdf9ac 957748 libcrypto1.1-udeb_1.1.0f-3+jacob1_amd64.udeb
+ 6b775de78d1f7325ce49d98fa8ae5892 1575390 libssl-dev_1.1.0f-3+jacob1_amd64.deb
+ 6e78168317a7c704b5c2d7ede121d385 1453688 libssl-doc_1.1.0f-3+jacob1_all.deb
+ 5b8f4afbcb83947f674a952e197aa50a 2851878 libssl1.1-dbgsym_1.1.0f-3+jacob1_amd64.deb
+ 04537c656646d24cca610d7182649b46 144576 libssl1.1-udeb_1.1.0f-3+jacob1_amd64.udeb
+ 34798f70bee97765c6efed900dd32aa6 1343612 libssl1.1_1.1.0f-3+jacob1_amd64.deb
+ 1a8332eecaa339355389095a3c6d1e36 499048 openssl-dbgsym_1.1.0f-3+jacob1_amd64.deb
+ 9571f5267747e59f98f88ce5095fc8d6 724634 openssl_1.1.0f-3+jacob1_amd64.deb
+Checksums-Sha1:
+ 8897252303dacbf6c88208699d9993397b9b3c51 2364 openssl_1.1.0f-3+jacob1.dsc
+ a9893ff4ff7961316ebb3e3cf2044085a2f4b8a5 957748 libcrypto1.1-udeb_1.1.0f-3+jacob1_amd64.udeb
+ 1d73e59d9e511d06d1b1b08f97a278883cb6176e 1575390 libssl-dev_1.1.0f-3+jacob1_amd64.deb
+ 9392cfcdf73c815516e0a95b9fedc3a9ca4aef2b 1453688 libssl-doc_1.1.0f-3+jacob1_all.deb
+ 88d008971c11e0b08963cbcee5b9c75e08adfaef 2851878 libssl1.1-dbgsym_1.1.0f-3+jacob1_amd64.deb
+ c9646c3aa747ad30f6ca1e2d6227a15eb0f45479 144576 libssl1.1-udeb_1.1.0f-3+jacob1_amd64.udeb
+ 665db7cdc4d6195ce77a1491aab1412dc0b60ef1 1343612 libssl1.1_1.1.0f-3+jacob1_amd64.deb
+ 2da2f992f5f07e7fa7734f7d270226aa217eb7bc 499048 openssl-dbgsym_1.1.0f-3+jacob1_amd64.deb
+ b21f815b6d26525d9007a8c5dee98f80c0fa41cd 724634 openssl_1.1.0f-3+jacob1_amd64.deb
+Checksums-Sha256:
+ 22ea72113ae840a0a920a96fc145157348f3cc49ed7087de28b5cfdf958d12c2 2364 openssl_1.1.0f-3+jacob1.dsc
+ 39669a49c9b7fa9aac166ab8ed6a715a29b73815ce343bb6ec6ea275a61431a6 957748 libcrypto1.1-udeb_1.1.0f-3+jacob1_amd64.udeb
+ 808368550df30cf56d55d508f2448dadac2ce286c1bc38d160ec87fda905fe3e 1575390 libssl-dev_1.1.0f-3+jacob1_amd64.deb
+ 939501b611f6c75b48a17ca936bf3468c2550fffa2adcf1de50a26d47363bbb2 1453688 libssl-doc_1.1.0f-3+jacob1_all.deb
+ 6952cbddf64714428169242192fc6f6833dcc7ff4045677ffbb84cf471746ec4 2851878 libssl1.1-dbgsym_1.1.0f-3+jacob1_amd64.deb
+ 144fa799b02347412402ac1730e310aa878cbc287ac754f86f7c5c9cdf9cd1a6 144576 libssl1.1-udeb_1.1.0f-3+jacob1_amd64.udeb
+ 5c53fb29e4f225b81cb2b87bab998ff8cf2c1319391f2f13e7551b4afb3038bd 1343612 libssl1.1_1.1.0f-3+jacob1_amd64.deb
+ 2545229ae444007d00f6427710ee52e2a9646d34f4b5bf9b6e98247cee0afae0 499048 openssl-dbgsym_1.1.0f-3+jacob1_amd64.deb
+ f8e315f27c6542bcae3fd93a6d9a5609e39eac4fdd7f820a269a706b455ad5c5 724634 openssl_1.1.0f-3+jacob1_amd64.deb
+Build-Origin: Debian
+Build-Architecture: amd64
+Build-Date: Wed, 15 Aug 2018 20:31:19 -0500
+Installed-Build-Depends:
+ autoconf (= 2.69-10),
+ automake (= 1:1.15-6),
+ autopoint (= 0.19.8.1-2),
+ autotools-dev (= 20161112.1),
+ base-files (= 9.9+deb9u5),
+ base-passwd (= 3.5.43),
+ bash (= 4.4-5),
+ bc (= 1.06.95-9+b3),
+ binutils (= 2.28-5),
+ bsdmainutils (= 9.0.12+nmu1),
+ bsdutils (= 1:2.29.2-1+deb9u1),
+ build-essential (= 12.3),
+ bzip2 (= 1.0.6-8.1),
+ clang-3.8 (= 1:3.8.1-24),
+ coreutils (= 8.26-3),
+ cpp (= 4:6.3.0-4),
+ cpp-4.8 (= 4.8.4-1),
+ cpp-4.9 (= 4.9.2-10),
+ cpp-6 (= 6.3.0-18+deb9u1),
+ dash (= 0.5.8-2.4),
+ debconf (= 1.5.61),
+ debhelper (= 10.2.5),
+ debianutils (= 4.8.1.1),
+ dh-autoreconf (= 14),
+ dh-strip-nondeterminism (= 0.034-1),
+ diffutils (= 1:3.5-3),
+ dpkg (= 1.18.25),
+ dpkg-dev (= 1.18.25),
+ e2fslibs (= 1.43.4-2),
+ e2fsprogs (= 1.43.4-2),
+ file (= 1:5.30-1+deb9u2),
+ findutils (= 4.6.0+git+20161106-2),
+ g++ (= 4:6.3.0-4),
+ g++-6 (= 6.3.0-18+deb9u1),
+ gawk (= 1:4.1.4+dfsg-1),
+ gcc (= 4:6.3.0-4),
+ gcc-4.8 (= 4.8.4-1),
+ gcc-4.8-base (= 4.8.4-1),
+ gcc-4.9 (= 4.9.2-10),
+ gcc-4.9-base (= 4.9.2-10),
+ gcc-6 (= 6.3.0-18+deb9u1),
+ gcc-6-base (= 6.3.0-18+deb9u1),
+ gettext (= 0.19.8.1-2),
+ gettext-base (= 0.19.8.1-2),
+ grep (= 2.27-2),
+ groff-base (= 1.22.3-9),
+ gzip (= 1.6-5+b1),
+ hostname (= 3.18+b1),
+ init-system-helpers (= 1.48),
+ install-info (= 6.3.0.dfsg.1-1+b2),
+ intltool-debian (= 0.35.0+20060710.4),
+ libacl1 (= 2.2.52-3+b1),
+ libarchive-zip-perl (= 1.59-1),
+ libasan0 (= 4.8.4-1),
+ libasan1 (= 4.9.2-10),
+ libasan3 (= 6.3.0-18+deb9u1),
+ libatomic1 (= 6.3.0-18+deb9u1),
+ libattr1 (= 1:2.4.47-2+b2),
+ libaudit-common (= 1:2.6.7-2),
+ libaudit1 (= 1:2.6.7-2),
+ libblkid1 (= 2.29.2-1+deb9u1),
+ libbsd0 (= 0.8.3-1),
+ libbz2-1.0 (= 1.0.6-8.1),
+ libc-bin (= 2.24-11+deb9u3),
+ libc-dev-bin (= 2.24-11+deb9u3),
+ libc6 (= 2.24-11+deb9u3),
+ libc6-dev (= 2.24-11+deb9u3),
+ libcap-ng0 (= 0.7.7-3+b1),
+ libcc1-0 (= 6.3.0-18+deb9u1),
+ libcilkrts5 (= 6.3.0-18+deb9u1),
+ libclang-common-3.8-dev (= 1:3.8.1-24),
+ libclang1-3.8 (= 1:3.8.1-24),
+ libcloog-isl4 (= 0.18.4-1+b1),
+ libcomerr2 (= 1.43.4-2),
+ libcroco3 (= 0.6.11-3),
+ libdb5.3 (= 5.3.28-12+deb9u1),
+ libdebconfclient0 (= 0.227),
+ libdpkg-perl (= 1.18.25),
+ libedit2 (= 3.1-20160903-3),
+ libfdisk1 (= 2.29.2-1+deb9u1),
+ libffi6 (= 3.2.1-6),
+ libfile-stripnondeterminism-perl (= 0.034-1),
+ libgc1c2 (= 1:7.4.2-8),
+ libgcc-4.8-dev (= 4.8.4-1),
+ libgcc-4.9-dev (= 4.9.2-10),
+ libgcc-6-dev (= 6.3.0-18+deb9u1),
+ libgcc1 (= 1:6.3.0-18+deb9u1),
+ libgcrypt20 (= 1.7.6-2+deb9u3),
+ libgdbm3 (= 1.8.3-14),
+ libglib2.0-0 (= 2.50.3-2),
+ libgmp10 (= 2:6.1.2+dfsg-1),
+ libgomp1 (= 6.3.0-18+deb9u1),
+ libgpg-error0 (= 1.26-2),
+ libicu57 (= 57.1-6+deb9u2),
+ libisl10 (= 0.12.2-2),
+ libisl15 (= 0.18-1),
+ libitm1 (= 6.3.0-18+deb9u1),
+ libllvm3.8 (= 1:3.8.1-24),
+ liblsan0 (= 6.3.0-18+deb9u1),
+ liblz4-1 (= 0.0~r131-2+b1),
+ liblzma5 (= 5.2.2-1.2+b1),
+ libmagic-mgc (= 1:5.30-1+deb9u2),
+ libmagic1 (= 1:5.30-1+deb9u2),
+ libmount1 (= 2.29.2-1+deb9u1),
+ libmpc3 (= 1.0.3-1+b2),
+ libmpfr4 (= 3.1.5-1),
+ libmpx2 (= 6.3.0-18+deb9u1),
+ libncurses5 (= 6.0+20161126-1+deb9u2),
+ libncursesw5 (= 6.0+20161126-1+deb9u2),
+ libobjc-6-dev (= 6.3.0-18+deb9u1),
+ libobjc4 (= 6.3.0-18+deb9u1),
+ libpam-modules (= 1.1.8-3.6),
+ libpam-modules-bin (= 1.1.8-3.6),
+ libpam-runtime (= 1.1.8-3.6),
+ libpam0g (= 1.1.8-3.6),
+ libpcre3 (= 2:8.39-3),
+ libperl5.24 (= 5.24.1-3+deb9u4),
+ libpipeline1 (= 1.4.1-2),
+ libquadmath0 (= 6.3.0-18+deb9u1),
+ libreadline7 (= 7.0-3),
+ libselinux1 (= 2.6-3+b3),
+ libsemanage-common (= 2.6-2),
+ libsemanage1 (= 2.6-2),
+ libsepol1 (= 2.6-2),
+ libsigsegv2 (= 2.10-5),
+ libsmartcols1 (= 2.29.2-1+deb9u1),
+ libss2 (= 1.43.4-2),
+ libstdc++-6-dev (= 6.3.0-18+deb9u1),
+ libstdc++6 (= 6.3.0-18+deb9u1),
+ libsystemd0 (= 232-25+deb9u4),
+ libtimedate-perl (= 2.3000-2),
+ libtinfo5 (= 6.0+20161126-1+deb9u2),
+ libtool (= 2.4.6-2),
+ libtsan0 (= 6.3.0-18+deb9u1),
+ libubsan0 (= 6.3.0-18+deb9u1),
+ libudev1 (= 232-25+deb9u4),
+ libunistring0 (= 0.9.6+really0.9.3-0.1),
+ libustr-1.0-1 (= 1.0.4-6),
+ libuuid1 (= 2.29.2-1+deb9u1),
+ libxml2 (= 2.9.4+dfsg1-2.2+deb9u2),
+ linux-libc-dev (= 4.9.110-3+deb9u1),
+ login (= 1:4.4-4.1),
+ m4 (= 1.4.18-1),
+ make (= 4.1-9.1),
+ man-db (= 2.7.6.1-2),
+ mawk (= 1.3.3-17+b3),
+ mount (= 2.29.2-1+deb9u1),
+ multiarch-support (= 2.24-11+deb9u3),
+ ncurses-base (= 6.0+20161126-1+deb9u2),
+ ncurses-bin (= 6.0+20161126-1+deb9u2),
+ passwd (= 1:4.4-4.1),
+ patch (= 2.7.5-1+deb9u1),
+ perl (= 5.24.1-3+deb9u4),
+ perl-base (= 5.24.1-3+deb9u4),
+ perl-modules-5.24 (= 5.24.1-3+deb9u4),
+ po-debconf (= 1.0.20),
+ readline-common (= 7.0-3),
+ sed (= 4.4-1),
+ sensible-utils (= 0.0.9+deb9u1),
+ sysvinit-utils (= 2.88dsf-59.9),
+ tar (= 1.29b-1.1),
+ util-linux (= 2.29.2-1+deb9u1),
+ xz-utils (= 5.2.2-1.2+b1),
+ zlib1g (= 1:1.2.8.dfsg-5)
+Environment:
+ DEB_BUILD_OPTIONS="parallel=4"
+ LANG="en_US.UTF-8"
+ SOURCE_DATE_EPOCH="1533725462"
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCAAdFiEEzW53hyB08Y/nbOzkComqYqx0xjQFAlt08I0ACgkQComqYqx0
+xjS+Ug//XHqMnuh8n1qUN0r63I6TI2OQLLVoAsamPZSGiB6PbxwF6zgaylFJt5rG
+pjrdksKaWzcK3pGdDpEvP4iN1asCikNiaBfefRp/YtZTiOJ2MP4xEaq60xkvBXdT
+090ojc9KiJdkD93hqXTvYBb56YOJtD7brdYLm0k0UTLpMq7WgWpAcA3NjA2LCVwj
+xDslTD9ydtIYS/1FxACDKSZdxPp0rjiLN71rvBGd6W2HQNLXAhNrNSZRka3a65YA
+9TDxt9gobqnClYGtBN84Vn6rOqNQcearhAWUF4mASUZWXvEk9jjF3S5jBsgkdzQF
+tmTUxeqmohKNxtKRlFK6M/4PGDNjBJA8aIQ5OSbwXbJvlHUbAliSJWDtDukO9vfY
+sKCDgdSkRsQ4dAYvvT2puuPou5lj5c0+pE9YR2QE7lYL5EyU8ewXtV3Ihb0AnDoq
++DLCiBaOCq0Flh+AneWSr0Lo5OtcKV3qsTfb5/Y1DM8BF0yu57OOCAK4q6tBozvm
+3ZzKDMMbbNBjkGTogzPmaygcU24EBnI2sDI5JsSV37NB0ZquQKVfnhvesvXGN/RH
+zdU2I5R6NFB51fC/OctndoxhgC2fyQt1twJzqd7jC1m+DoPU+s5DOAmsfveFhqgs
+TLcgK4E0oBdAYL2uO6+hAmPjj9bX4jo+QybowfaxP2QwgFbn9ME=
+=CTPJ
+-----END PGP SIGNATURE-----
