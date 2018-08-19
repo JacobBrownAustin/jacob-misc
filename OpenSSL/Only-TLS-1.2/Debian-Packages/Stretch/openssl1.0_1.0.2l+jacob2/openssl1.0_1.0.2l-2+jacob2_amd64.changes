@@ -1,0 +1,67 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Format: 1.8
+Date: Tue, 14 Aug 2018 13:10:14 +0200
+Source: openssl1.0
+Binary: libssl1.0.2 libssl1.0-dev libcrypto1.0.2-udeb libssl1.0.2-udeb
+Architecture: source amd64
+Version: 1.0.2l-2+jacob2
+Distribution: stretch-security
+Urgency: high
+Maintainer: Debian OpenSSL Team <pkg-openssl-devel@lists.alioth.debian.org>
+Changed-By: Jacob Brown <jacob@gnu.org>
+Description:
+ libcrypto1.0.2-udeb - Secure Sockets Layer toolkit - libcrypto udeb (udeb)
+ libssl1.0-dev - Secure Sockets Layer toolkit - development files
+ libssl1.0.2 - Secure Sockets Layer toolkit - shared libraries
+ libssl1.0.2-udeb - ssl shared library - udeb (udeb)
+Changes:
+ openssl1.0 (1.0.2l-2+jacob2) stretch-security; urgency=high
+ .
+   * Disabling TLS 1.0 and TLS 1.1
+Checksums-Sha1:
+ 2dbe53eb5fd4d8a7e638768402eec9456cb72def 2301 openssl1.0_1.0.2l-2+jacob2.dsc
+ cb0cda724a197acaa370ce5a517f1980f43b7e2e 83464 openssl1.0_1.0.2l-2+jacob2.debian.tar.xz
+ 115edc56be01e76132d3da9c7950860cfe437957 876632 libcrypto1.0.2-udeb_1.0.2l-2+jacob2_amd64.udeb
+ 38ea7e3f67af60f1a1842b820740db8d16507e14 1559198 libssl1.0-dev_1.0.2l-2+jacob2_amd64.deb
+ f92c945ac0962affb2a51aac41a08e0af4105ff1 3146830 libssl1.0.2-dbgsym_1.0.2l-2+jacob2_amd64.deb
+ 0788e2fde7a6a7904ce0dce064a40559385d31c9 142028 libssl1.0.2-udeb_1.0.2l-2+jacob2_amd64.udeb
+ 56ef76baf4cdd332e8a369404b47419ba989fb0b 1294810 libssl1.0.2_1.0.2l-2+jacob2_amd64.deb
+ 4c7ef92ae1a3538cb00c9d69ffb5294b0d628772 7688 openssl1.0_1.0.2l-2+jacob2_amd64.buildinfo
+Checksums-Sha256:
+ 528c4b6d664100d74070bf940cdcbccf1f68914b2b10d2425e01ecde9023bd7c 2301 openssl1.0_1.0.2l-2+jacob2.dsc
+ 7db04558ca05a4b81f5e667c4c390517a899f4d8c1c1f8680f1c642802fb7917 83464 openssl1.0_1.0.2l-2+jacob2.debian.tar.xz
+ 0a49dc39e32806429639e520fa7d02320cd38debec03ae8da08828ed8d9bee0f 876632 libcrypto1.0.2-udeb_1.0.2l-2+jacob2_amd64.udeb
+ 3374a3d57f2a2164a27a1ae4e84a300789a95d79cab2e0f01520e799d6e8f2dd 1559198 libssl1.0-dev_1.0.2l-2+jacob2_amd64.deb
+ d101e749b3247dc7a75952ee7ad04cc26b8e564327fe0c24a87b5130340d0371 3146830 libssl1.0.2-dbgsym_1.0.2l-2+jacob2_amd64.deb
+ c8b034b5f5e834f5a18da08c2505481d70567e7ac19e570cacd18401b7817e8e 142028 libssl1.0.2-udeb_1.0.2l-2+jacob2_amd64.udeb
+ 858d1666f44190c4ecfefb5435bbf60657d48ebf62a708e91aeeb3fccdfb9c16 1294810 libssl1.0.2_1.0.2l-2+jacob2_amd64.deb
+ 7a93c088552e4fbbe844c3246524c6f852b2a52c738ae8b9eedd9bd3ec7455fc 7688 openssl1.0_1.0.2l-2+jacob2_amd64.buildinfo
+Files:
+ 1bb62e2a7c7674dd06117cb52b8574bd 2301 utils optional openssl1.0_1.0.2l-2+jacob2.dsc
+ dfdb7ed30503843973dbe537059ea6f1 83464 utils optional openssl1.0_1.0.2l-2+jacob2.debian.tar.xz
+ 05e3c86826087436e045ceefc1bff685 876632 debian-installer optional libcrypto1.0.2-udeb_1.0.2l-2+jacob2_amd64.udeb
+ cc6b6daa6ed04129f879ae9e920565f2 1559198 libdevel optional libssl1.0-dev_1.0.2l-2+jacob2_amd64.deb
+ 4d3a5abae0c819521e93297ab81f2458 3146830 debug extra libssl1.0.2-dbgsym_1.0.2l-2+jacob2_amd64.deb
+ 152206e63c08b6254c103212381f1495 142028 debian-installer optional libssl1.0.2-udeb_1.0.2l-2+jacob2_amd64.udeb
+ 6479c72cf9ac31f41a37c742135f4d76 1294810 libs important libssl1.0.2_1.0.2l-2+jacob2_amd64.deb
+ 936072fc86a6787e190c10ea4c6aab11 7688 utils optional openssl1.0_1.0.2l-2+jacob2_amd64.buildinfo
+Package-Type: udeb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCAAdFiEEzW53hyB08Y/nbOzkComqYqx0xjQFAlt4xb4ACgkQComqYqx0
+xjR9lxAAtXD8pqZ0Oabs+EGtJM1Mxk8B5dQ2vHRVi8QjWUimxwNCfldrHWn4Mg6e
+srtDFnTrdfzpOYs8c4UWLC1emKJKTeskvZ49AleIB05r1zxuprQ7jnAiTv/LPyLm
+NpRY9adEMHO128EhtYkqbR+8cNM0HoBQEMFcsw4btvusjSZaOgmIRRaJb4gmkBsx
+wWwwp73Ogm/EsEGcICS0xDj84pU1QYx2MAnaah0k32n2tHq2cDaQQjvq1wcbFt7b
+idyiN6YbKflhhQ/LVe1ezc23bG0AvCsSl3/oAAATvFgeLozVgEbPmE9j+pM9Okm0
+KyXb1PKpzZRXKFNnJIPAV6CuGO5RTGFCoxRMaYnE2NeZ6/0lQCq5JpbYhaT95/ai
+lmhbBVftFqVKIrMLU4QQA+34L9x47oIJvxWfHzSArO7HhtPEUY8lTMAD8oEpG4vF
+Xv+HhLEYUjRKEeQgS/ihk5hO3L4QIqILcZDedTBJv9qhgChSXog7kZjNVL8OxZT+
+4POmGhQVJol8KNgAA6RCvHLQguSRNFZQlf83u9UQTwDFSIbVUSM0pNlhYn3TchwP
+BOUMWxQGovaVzoFb48IUkY+guwRvSDNGe2BpVF+JgIOxDZnURm4ACszUZ5090xi7
+BEzebah0jepVLtyqL4CDxKpn1cMVEnDgGO9ilic2g8UCubB0Md0=
+=Q8+r
+-----END PGP SIGNATURE-----
